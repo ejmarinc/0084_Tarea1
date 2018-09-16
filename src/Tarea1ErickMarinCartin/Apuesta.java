@@ -1,64 +1,71 @@
 package Tarea1ErickMarinCartin;
 
+import Tarea1ErickMarinCartin.DatosPartido;
+
 public class Apuesta{
 
     private String cedula;
     private String nombre;
     private int numeroDePartido;
-    private int montoEquipo1 = 0;
-    private int montoEmpate = 0;
-    private int montoEquipo2 = 0;
-//    Setter methods
+    private double montoEquipo1 = 0;
+    private double montoEmpate = 0;
+    private double montoEquipo2 = 0;
+
+    private double ganancia; // variable de instancia que almanacena el monto ganado
+
+//Setter and Getter Methods
+    public String getCedula() {
+        return cedula;
+    }
 
     public void setCedula(String cedula) {
         this.cedula = cedula;
-    }
-
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
-
-    public void setNumeroDePartido(int numeroDePartido) {
-        this.numeroDePartido = numeroDePartido;
-    }
-
-    public void setMontoEquipo1(int montoEquipo1) {
-        this.montoEquipo1 = montoEquipo1;
-    }
-
-    public void setMontoEmpate(int montoEmpate) {
-        this.montoEmpate = montoEmpate;
-    }
-
-    public void setMontoEquipo2(int montoEquipo2) {
-        this.montoEquipo2 = montoEquipo2;
-    }
-
-
-//    Getter methods
-
-
-    public String getCedula() {
-        return cedula;
     }
 
     public String getNombre() {
         return nombre;
     }
 
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
     public int getNumeroDePartido() {
         return numeroDePartido;
     }
 
-    public int getMontoEquipo1() {
+    public void setNumeroDePartido(int numeroDePartido) {
+        this.numeroDePartido = numeroDePartido;
+    }
+
+    public double getMontoEquipo1() {
         return montoEquipo1;
     }
 
-    public int getMontoEmpate() {
+    public void setMontoEquipo1(double montoEquipo1) {
+        this.montoEquipo1 = montoEquipo1;
+    }
+
+    public double getMontoEmpate() {
         return montoEmpate;
     }
 
-    public int getMontoEquipo2() {
+    public void setMontoEmpate(double montoEmpate) {
+        this.montoEmpate = montoEmpate;
+    }
+
+    public double getMontoEquipo2() {
         return montoEquipo2;
     }
+
+    public void setMontoEquipo2(double montoEquipo2) {
+        this.montoEquipo2 = montoEquipo2;
+    }
+//    Métodos para cálculos
+    public double obtenerGanancia(){
+
+        DatosPartido.
+
+    }
+
 }
