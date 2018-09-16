@@ -15,59 +15,61 @@ public class DatosPartido {
     private float factorEquipo2;
     private int golesEquipo2 = 0;
 
-    
-
-//Setter Methods
-    public void setNumeroDePartido(int numeroDePartido)
-    {
+//Getter methods
+    public void setNumeroDePartido(int numeroDePartido) {
         this.numeroDePartido = numeroDePartido;
     }
-    public void setFechaPartido(String fechaPartido)
-    {
+
+    public void setFechaPartido(String fechaPartido) {
         this.fechaPartido = fechaPartido;
     }
-    public void setHoraPartido(String horaPartido)
-    {
+
+    public void setHoraPartido(String horaPartido) {
         this.horaPartido = horaPartido;
-        }
-    public void setFactorEmpate(int factorEmpate)
-    {
+    }
+
+    public void setFactorEmpate(int factorEmpate) {
         this.factorEmpate = factorEmpate;
     }
-    public void setCodigoEquipo1 (int codigoEquipo1)
-    {
+
+    public void setCodigoEquipo1(int codigoEquipo1) {
         this.codigoEquipo1 = codigoEquipo1;
     }
-    public void setNombreEquipo1 (String nombreEquipo1)
-    {
+
+    public void setNombreEquipo1(String nombreEquipo1) {
         this.nombreEquipo1 = nombreEquipo1;
-            }
-    public void setFactorEquipo1 (float factorEquipo1)
-    {
+    }
+
+    public void setFactorEquipo1(float factorEquipo1) {
         this.factorEquipo1 = factorEquipo1;
     }
-    public void setGolesEquipo1 (int golesEquipo1)
-    {
+
+    public void setGolesEquipo1(int golesEquipo1) {
         this.golesEquipo1 = golesEquipo1;
     }
-    public void setCodigoEquipo2 (int codigoEquipo2)
-    {
-        this.golesEquipo1 = codigoEquipo2;
+
+    public void setCodigoEquipo2(int codigoEquipo2) {
+        this.codigoEquipo2 = codigoEquipo2;
     }
-    public void setNombreEquipo2 (String nombreEquipo2)
-    {
+
+    public void setNombreEquipo2(String nombreEquipo2) {
         this.nombreEquipo2 = nombreEquipo2;
     }
-    public void setFactorEquipo2 (float factorEquipo2)
-    {
+
+    public void setFactorEquipo2(float factorEquipo2) {
         this.factorEquipo2 = factorEquipo2;
     }
-    public void setGolesEquipo2 (int golesEquipo2)
-    {
+
+    public void setGolesEquipo2(int golesEquipo2) {
         this.golesEquipo2 = golesEquipo2;
     }
-// Getter methods
 
+    // Getter methods
+
+
+    public String getFechaPartido() {
+        return fechaPartido;
+    }
 
     public String getHoraPartido() {
         return horaPartido;
