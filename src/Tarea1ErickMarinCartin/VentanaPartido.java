@@ -28,8 +28,6 @@ public class VentanaPartido {
             @Override
             public void actionPerformed(ActionEvent e) {
                 Partido.setNumeroDePartido(Integer.parseInt(tfNumeroDePartido.getText()));
-                Partido.setCodigoEquipo1(Integer.parseInt(tfCodigoEquipo1.getText()));
-                Partido.setCodigoEquipo2(Integer.parseInt(tfCodigoEquipo2.getText()));
                 Partido.setHoraPartido(tfHoraDelPartido.getText());
                 Partido.setFechaPartido(tfFecha.getText());
                 Partido.setNombreEquipo1(tfNombreEquipo1.getText());
