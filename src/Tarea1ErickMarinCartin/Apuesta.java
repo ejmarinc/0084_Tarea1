@@ -61,11 +61,11 @@ public class Apuesta{
     public void setMontoEquipo2(double montoEquipo2) {
         this.montoEquipo2 = montoEquipo2;
     }
-//    Métodos para cálculos
-    public double obtenerGanancia(){
+// Metodo para calculo de ganancia
 
-        DatosPartido.
-
+    public void calcularGanancia(DatosPartido Partido)
+    {
+        ganancia = Partido.getFactorEmpate()*montoEmpate+Partido.getFactorEquipo1()*montoEquipo1+Partido.getFactorEquipo2()*montoEquipo2;
     }
 
 }
