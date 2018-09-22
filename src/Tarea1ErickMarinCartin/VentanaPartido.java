@@ -11,7 +11,7 @@ public class VentanaPartido {
     private JTextField tfNumeroDePartido;
     private JTextField tfCodigoEquipo1;
     private JTextField tfCodigoEquipo2;
-    private JTextField tfNombreEquipoq;
+    private JTextField tfNombreEquipo1;
     private JTextField tfNombreEquipo2;
     private JTextField tfFactorEquipo1;
     private JTextField tfFactorEquipo2;
@@ -27,7 +27,21 @@ public class VentanaPartido {
         aceptarButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                Partido.setNumeroDePartido(Integer.parseInt(tfNumeroDePartido.getText()));
                 Partido.setCodigoEquipo1(Integer.parseInt(tfCodigoEquipo1.getText()));
+                Partido.setCodigoEquipo2(Integer.parseInt(tfCodigoEquipo2.getText()));
+                Partido.setHoraPartido(tfHoraDelPartido.getText());
+                Partido.setFechaPartido(tfFecha.getText());
+                Partido.setNombreEquipo1(tfNombreEquipo1.getText());
+                Partido.setNombreEquipo1(tfNombreEquipo2.getText());
+                Partido.setCodigoEquipo1(Integer.parseInt(tfCodigoEquipo1.getText()));
+                Partido.setCodigoEquipo2(Integer.parseInt(tfCodigoEquipo2.getText()));
+                Partido.setGolesEquipo1(Integer.parseInt(tfGolesEquipo1.getText()));
+                Partido.setGolesEquipo2(Integer.parseInt(tfGolesEquipo2.getText()));
+                Partido.setFactorEquipo1(Integer.parseInt(tfFactorEquipo1.getText()));
+                Partido.setFactorEquipo2(Integer.parseInt(tfFactorEquipo2.getText()));
+                Partido.setFactorEmpate(Integer.parseInt(tfFactorEmpate.getText()));
+
 
 
             }
