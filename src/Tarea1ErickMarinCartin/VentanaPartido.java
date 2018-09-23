@@ -31,16 +31,19 @@ public class VentanaPartido {
                 Partido.setHoraPartido(tfHoraDelPartido.getText());
                 Partido.setFechaPartido(tfFecha.getText());
                 Partido.setNombreEquipo1(tfNombreEquipo1.getText());
-                Partido.setNombreEquipo1(tfNombreEquipo2.getText());
+                Partido.setNombreEquipo2(tfNombreEquipo2.getText());
                 Partido.setCodigoEquipo1(Integer.parseInt(tfCodigoEquipo1.getText()));
                 Partido.setCodigoEquipo2(Integer.parseInt(tfCodigoEquipo2.getText()));
                 Partido.setGolesEquipo1(Integer.parseInt(tfGolesEquipo1.getText()));
                 Partido.setGolesEquipo2(Integer.parseInt(tfGolesEquipo2.getText()));
-                Partido.setFactorEquipo1(Integer.parseInt(tfFactorEquipo1.getText()));
-                Partido.setFactorEquipo2(Integer.parseInt(tfFactorEquipo2.getText()));
-                Partido.setFactorEmpate(Integer.parseInt(tfFactorEmpate.getText()));
+                Partido.setFactorEquipo1(Float.parseFloat(tfFactorEquipo1.getText()));
+                Partido.setFactorEquipo2(Float.parseFloat(tfFactorEquipo2.getText()));
+                Partido.setFactorEmpate(Float.parseFloat(tfFactorEmpate.getText()));
 
 
+                DialogDatosIngresados dialog = new DialogDatosIngresados();
+                dialog.pack();
+                dialog.setVisible(true);
 
             }
         });
@@ -57,6 +60,8 @@ public class VentanaPartido {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
         frame.setVisible(true);
+
+
 
 
 

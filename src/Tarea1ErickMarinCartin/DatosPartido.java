@@ -5,7 +5,7 @@ public class DatosPartido {
     private int numeroDePartido; // Atributos Partido
     private String fechaPartido;
     private String horaPartido;
-    private int factorEmpate;
+    private float factorEmpate;
     private int codigoEquipo1; // Atributos Equipo 1
     private String nombreEquipo1;
     private float factorEquipo1;
@@ -40,11 +40,11 @@ public class DatosPartido {
         this.horaPartido = horaPartido;
     }
 
-    public int getFactorEmpate() {
+    public float getFactorEmpate() {
         return factorEmpate;
     }
 
-    public void setFactorEmpate(int factorEmpate) {
+    public void setFactorEmpate(float factorEmpate) {
         this.factorEmpate = factorEmpate;
     }
 

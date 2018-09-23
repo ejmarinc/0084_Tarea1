@@ -8,6 +8,8 @@
     <properties>
       <alignmentX value="1.0"/>
       <alignmentY value="1.0"/>
+      <background color="-5920598"/>
+      <focusTraversalPolicyProvider value="true"/>
       <preferredSize width="600" height="300"/>
     </properties>
     <border type="none"/>
@@ -27,7 +29,9 @@
             <preferred-size width="150" height="-1"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <text value="1234"/>
+        </properties>
       </component>
       <component id="1f155" class="javax.swing.JTextField" binding="tfCodigoEquipo1">
         <constraints>
@@ -35,7 +39,9 @@
             <preferred-size width="150" height="-1"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <text value="123"/>
+        </properties>
       </component>
       <component id="d15a6" class="javax.swing.JLabel">
         <constraints>
@@ -64,7 +70,7 @@
           </grid>
         </constraints>
         <properties>
-          <text value=""/>
+          <text value="345"/>
         </properties>
       </component>
       <component id="32ec4" class="javax.swing.JLabel">
@@ -81,7 +87,9 @@
             <preferred-size width="150" height="-1"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <text value="Cartago"/>
+        </properties>
       </component>
       <component id="20ff7" class="javax.swing.JLabel">
         <constraints>
@@ -97,7 +105,9 @@
             <preferred-size width="150" height="-1"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <text value="Saprissa"/>
+        </properties>
       </component>
       <component id="ef5bf" class="javax.swing.JLabel">
         <constraints>
@@ -121,7 +131,9 @@
             <preferred-size width="150" height="-1"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <text value="20"/>
+        </properties>
       </component>
       <component id="e5016" class="javax.swing.JLabel">
         <constraints>
@@ -138,7 +150,7 @@
           </grid>
         </constraints>
         <properties>
-          <text value=""/>
+          <text value="2"/>
         </properties>
       </component>
       <component id="842e" class="javax.swing.JLabel">
@@ -156,7 +168,7 @@
           </grid>
         </constraints>
         <properties>
-          <text value=""/>
+          <text value="3"/>
         </properties>
       </component>
       <component id="bbc6f" class="javax.swing.JTextField" binding="tfGolesEquipo2">
@@ -166,7 +178,7 @@
           </grid>
         </constraints>
         <properties>
-          <text value=""/>
+          <text value="2"/>
         </properties>
       </component>
       <component id="ecf84" class="javax.swing.JLabel">
@@ -192,7 +204,7 @@
           </grid>
         </constraints>
         <properties>
-          <text value=""/>
+          <text value="1.5"/>
         </properties>
       </component>
       <component id="ebfc0" class="javax.swing.JLabel">
@@ -209,7 +221,9 @@
             <preferred-size width="150" height="-1"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <text value="11:00 am"/>
+        </properties>
       </component>
       <component id="2fded" class="javax.swing.JButton" binding="aceptarButton" default-binding="true">
         <constraints>
@@ -235,7 +249,9 @@
             <preferred-size width="150" height="-1"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <text value="23/9/2018"/>
+        </properties>
       </component>
       <hspacer id="d3f07">
         <constraints>
