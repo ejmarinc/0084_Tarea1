@@ -18,7 +18,7 @@
           <text value="Cédula"/>
         </properties>
       </component>
-      <component id="70281" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+      <component id="70281" class="javax.swing.JTextField" binding="tfCedula">
         <constraints>
           <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
@@ -34,7 +34,7 @@
           <text value="Nombre"/>
         </properties>
       </component>
-      <component id="1f9a6" class="javax.swing.JTextField" binding="textField2" default-binding="true">
+      <component id="1f9a6" class="javax.swing.JTextField" binding="tfNombre">
         <constraints>
           <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
@@ -50,7 +50,7 @@
           <text value="Número de Partido"/>
         </properties>
       </component>
-      <component id="c3f45" class="javax.swing.JTextField" binding="textField3" default-binding="true">
+      <component id="c3f45" class="javax.swing.JTextField" binding="tfNumero">
         <constraints>
           <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
@@ -66,7 +66,7 @@
           <text value="Monto Apuesta Equipo1"/>
         </properties>
       </component>
-      <component id="b4ce0" class="javax.swing.JTextField" binding="textField4" default-binding="true">
+      <component id="b4ce0" class="javax.swing.JTextField" binding="tfApuesta1">
         <constraints>
           <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
@@ -82,7 +82,7 @@
           <text value="Monto Apuesta Equipo2"/>
         </properties>
       </component>
-      <component id="b8272" class="javax.swing.JTextField" binding="textField5" default-binding="true">
+      <component id="b8272" class="javax.swing.JTextField" binding="tfApuesta2">
         <constraints>
           <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
@@ -98,7 +98,7 @@
           <text value="Monto Apuesta Empate"/>
         </properties>
       </component>
-      <component id="49326" class="javax.swing.JTextField" binding="textField6" default-binding="true">
+      <component id="49326" class="javax.swing.JTextField" binding="tfEmpate">
         <constraints>
           <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
@@ -106,7 +106,7 @@
         </constraints>
         <properties/>
       </component>
-      <component id="daab8" class="javax.swing.JTextField" binding="textField7" default-binding="true">
+      <component id="daab8" class="javax.swing.JTextField" binding="tfGanancia">
         <constraints>
           <grid row="8" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>

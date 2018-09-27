@@ -51,7 +51,7 @@ public class VentanaPartido {
         nuevaApuestaButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
+            
                 JFrame frameApuesta = new JFrame("VentanaApuesta");
                 frameApuesta.setContentPane(new VentanaApuesta().panelApuesta);
                 frameApuesta.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
