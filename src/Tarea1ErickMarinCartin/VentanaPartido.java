@@ -22,6 +22,7 @@ public class VentanaPartido {
     private JButton aceptarButton;
     private JPanel PanelPrincipal;
     private JTextField tfFecha;
+    private JButton nuevaApuestaButton;
 
     public VentanaPartido(DatosPartido Partido) {
         aceptarButton.addActionListener(new ActionListener() {
@@ -44,6 +45,18 @@ public class VentanaPartido {
                 DialogDatosIngresados dialog = new DialogDatosIngresados();
                 dialog.pack();
                 dialog.setVisible(true);
+
+            }
+        });
+        nuevaApuestaButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+                JFrame frameApuesta = new JFrame("VentanaApuesta");
+                frameApuesta.setContentPane(new VentanaApuesta().panelApuesta);
+                frameApuesta.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+                frameApuesta.pack();
+                frameApuesta.setVisible(true);
 
             }
         });
