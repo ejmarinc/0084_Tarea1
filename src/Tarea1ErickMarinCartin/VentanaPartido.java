@@ -2,9 +2,14 @@ package Tarea1ErickMarinCartin;
 
 //import com.sun.java.swing.plaf.windows.TMSchema;
 
+
+import javax.print.DocFlavor;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.List;
 //import java.text.SimpleDateFormat;
 
 public class VentanaPartido {
@@ -23,8 +28,12 @@ public class VentanaPartido {
     private JPanel PanelPrincipal;
     private JTextField tfFecha;
     private JButton nuevaApuestaButton;
-
+    private List<Apuesta> apuestas;
+    private int indice = 0;
     public VentanaPartido(DatosPartido Partido) {
+
+        apuestas = new ArrayList<>();
+
         aceptarButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -51,12 +60,21 @@ public class VentanaPartido {
         nuevaApuestaButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-            
+//            Incrementa el contador de apuestas este índice será utilizado para nombrar a un nuevo objeto apuesta
+                indice++;
+                Partido.setNumeroDeApuestas(indice);
+                String nombreApuesta = "Apuesta" + Integer.toString(indice);
+                Apuesta nuevaApuesta = new Apuesta();
+                nuevaApuesta.setNumeroDeApuesta(indice);
+                apuestas.add(nuevaApuesta);
+
+
                 JFrame frameApuesta = new JFrame("VentanaApuesta");
-                frameApuesta.setContentPane(new VentanaApuesta().panelApuesta);
+                frameApuesta.setContentPane(new VentanaApuesta(nuevaApuesta , Partido, frameApuesta).panelApuesta);
                 frameApuesta.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
                 frameApuesta.pack();
                 frameApuesta.setVisible(true);
+
 
             }
         });
@@ -80,4 +98,6 @@ public class VentanaPartido {
 
 
     }
+
+
 }

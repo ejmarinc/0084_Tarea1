@@ -24,7 +24,9 @@
             <preferred-size width="150" height="-1"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <text value="3-326-262"/>
+        </properties>
       </component>
       <component id="c9030" class="javax.swing.JLabel">
         <constraints>
@@ -40,7 +42,9 @@
             <preferred-size width="150" height="-1"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <text value="Erick Marin"/>
+        </properties>
       </component>
       <component id="aab09" class="javax.swing.JLabel">
         <constraints>
@@ -56,7 +60,9 @@
             <preferred-size width="150" height="-1"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <text value="323"/>
+        </properties>
       </component>
       <component id="a5ca" class="javax.swing.JLabel">
         <constraints>
@@ -72,7 +78,9 @@
             <preferred-size width="150" height="-1"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <text value="10000"/>
+        </properties>
       </component>
       <component id="a38d4" class="javax.swing.JLabel">
         <constraints>
@@ -88,7 +96,9 @@
             <preferred-size width="150" height="-1"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <text value="0"/>
+        </properties>
       </component>
       <component id="c62a7" class="javax.swing.JLabel">
         <constraints>
@@ -104,15 +114,9 @@
             <preferred-size width="150" height="-1"/>
           </grid>
         </constraints>
-        <properties/>
-      </component>
-      <component id="daab8" class="javax.swing.JTextField" binding="tfGanancia">
-        <constraints>
-          <grid row="8" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
-          </grid>
-        </constraints>
-        <properties/>
+        <properties>
+          <text value="0"/>
+        </properties>
       </component>
       <vspacer id="3b1fe">
         <constraints>
@@ -134,20 +138,17 @@
           <grid row="9" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
         </constraints>
       </vspacer>
-      <component id="e3254" class="javax.swing.JLabel">
+      <vspacer id="ebcc5">
         <constraints>
-          <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
         </constraints>
-        <properties>
-          <text value="Ganacia de la Apuesta"/>
-        </properties>
-      </component>
+      </vspacer>
       <component id="e85a3" class="javax.swing.JButton" binding="ingresarButton" default-binding="true">
         <constraints>
-          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Ingresar"/>
+          <text value="Aceptar"/>
         </properties>
       </component>
     </children>

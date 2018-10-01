@@ -122,5 +122,7 @@ public class DatosPartido {
     public void setGolesEquipo2(int golesEquipo2) {
         this.golesEquipo2 = golesEquipo2;
     }
+
+
 }
 
