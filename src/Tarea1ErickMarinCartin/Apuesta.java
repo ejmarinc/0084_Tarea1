@@ -20,7 +20,19 @@ public class Apuesta{
 
     private int numeroDeApuesta;
 
-//Setter and Getter Methods
+    //Setter and Getter Methods
+    public void setGanancia(double ganancia) {
+        this.ganancia = ganancia;
+    }
+
+    public void setMontoApostado(double montoApostado) {
+        this.montoApostado = montoApostado;
+    }
+
+    public void setMontoGanado(double montoGanado) {
+        this.montoGanado = montoGanado;
+    }
+
     public String getCedula() {
         return cedula;
     }
@@ -90,6 +102,7 @@ public class Apuesta{
     }
     // Metodo para calculo de ganancia
 
+
     public void calcularGanancia(DatosPartido Partido)
     {
         montoApostado = montoEmpate + montoEquipo1 + montoEquipo2;
@@ -110,6 +123,8 @@ public class Apuesta{
     {
         System.out.print("Número de Apuesta: ");
         System.out.println(numeroDeApuesta);
+        System.out.print("Número de Partido: ");
+        System.out.println(numeroDePartido);
         System.out.print("Cédula: ");
         System.out.println(cedula);
         System.out.print("Nombre: ");

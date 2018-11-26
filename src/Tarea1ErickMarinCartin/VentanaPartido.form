@@ -230,7 +230,7 @@
           <grid row="9" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Aceptar"/>
+          <text value="Actualizar"/>
         </properties>
       </component>
       <vspacer id="56f7b">
@@ -258,12 +258,12 @@
           <grid row="3" column="6" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
       </hspacer>
-      <component id="dd9a3" class="javax.swing.JButton" binding="nuevaApuestaButton" default-binding="true">
+      <component id="dd9a3" class="javax.swing.JButton" binding="cancelarButton">
         <constraints>
           <grid row="10" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="NuevaApuesta"/>
+          <text value="Cancelar"/>
         </properties>
       </component>
       <vspacer id="b5fe">

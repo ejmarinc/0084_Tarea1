@@ -1,13 +1,14 @@
 package Tarea1ErickMarinCartin;
+
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class DialogDatosIngresados extends JDialog {
+public class PartidoNoExiste extends JDialog {
     private JPanel contentPane;
     private JButton buttonOK;
 
-    public DialogDatosIngresados() {
+    public PartidoNoExiste() {
         setContentPane(contentPane);
         setModal(true);
         getRootPane().setDefaultButton(buttonOK);

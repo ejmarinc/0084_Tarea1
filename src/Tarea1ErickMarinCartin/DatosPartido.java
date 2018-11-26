@@ -19,6 +19,8 @@ public class DatosPartido {
 
 // Setter and Getter Methods
 
+
+
     public int getNumeroDeApuestas() {
         return numeroDeApuestas;
     }
