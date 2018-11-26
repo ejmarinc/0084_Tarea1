@@ -2,6 +2,9 @@ package Tarea1ErickMarinCartin;
 
 import Tarea1ErickMarinCartin.DatosPartido;
 
+import javax.swing.plaf.synth.SynthTextAreaUI;
+import java.lang.management.GarbageCollectorMXBean;
+
 public class Apuesta{
 
     private String cedula;
@@ -12,8 +15,24 @@ public class Apuesta{
     private double montoEquipo2 = 0;
 
     private double ganancia; // variable de instancia que almanacena el monto ganado
+    private double montoApostado;
+    private double montoGanado = 0;
 
-//Setter and Getter Methods
+    private int numeroDeApuesta;
+
+    //Setter and Getter Methods
+    public void setGanancia(double ganancia) {
+        this.ganancia = ganancia;
+    }
+
+    public void setMontoApostado(double montoApostado) {
+        this.montoApostado = montoApostado;
+    }
+
+    public void setMontoGanado(double montoGanado) {
+        this.montoGanado = montoGanado;
+    }
+
     public String getCedula() {
         return cedula;
     }
@@ -61,11 +80,69 @@ public class Apuesta{
     public void setMontoEquipo2(double montoEquipo2) {
         this.montoEquipo2 = montoEquipo2;
     }
-// Metodo para calculo de ganancia
+
+    public int getNumeroDeApuesta() {
+        return numeroDeApuesta;
+    }
+
+    public void setNumeroDeApuesta(int numeroDeApuesta) {
+        this.numeroDeApuesta = numeroDeApuesta;
+    }
+
+    public double getGanancia() {
+        return ganancia;
+    }
+
+    public double getMontoApostado() {
+        return montoApostado;
+    }
+
+    public double getMontoGanado() {
+        return montoGanado;
+    }
+    // Metodo para calculo de ganancia
+
 
     public void calcularGanancia(DatosPartido Partido)
     {
-        ganancia = Partido.getFactorEmpate()*montoEmpate+Partido.getFactorEquipo1()*montoEquipo1+Partido.getFactorEquipo2()*montoEquipo2;
+        montoApostado = montoEmpate + montoEquipo1 + montoEquipo2;
+        if (Partido.getGolesEquipo1() > Partido.getGolesEquipo2()) {
+            montoGanado = Partido.getFactorEquipo1()*montoEquipo1;
+        }
+        if (Partido.getGolesEquipo2() > Partido.getGolesEquipo1()) {
+            montoGanado = Partido.getFactorEquipo2()*montoEquipo2;
+        }
+        if (Partido.getGolesEquipo2() == Partido.getGolesEquipo1()) {
+            montoGanado = Partido.getFactorEmpate()*montoEmpate;
+        }
+
+        this.ganancia = this.montoGanado - this.montoApostado;
+    }
+//    Metodo para imprimir los datos de la apuesta se realiza en consola
+    public void imprimirApuesta()
+    {
+        System.out.print("Número de Apuesta: ");
+        System.out.println(numeroDeApuesta);
+        System.out.print("Número de Partido: ");
+        System.out.println(numeroDePartido);
+        System.out.print("Cédula: ");
+        System.out.println(cedula);
+        System.out.print("Nombre: ");
+        System.out.println(nombre);
+        System.out.print("Monto Apostado al Equipo 1: ");
+        System.out.println(montoEquipo1);
+        System.out.print("Monto Apostado al Equipo 2: ");
+        System.out.println(montoEquipo2);
+        System.out.print("Monto Apostado a Empate: ");
+        System.out.println(montoEmpate);
+        System.out.print("Monto Apostado : ");
+        System.out.println(montoApostado);
+        System.out.print("Monto Pagado : ");
+        System.out.println(montoGanado);
+        System.out.print("Ganancia : ");
+        System.out.println(ganancia);
+
+
     }
 
 }

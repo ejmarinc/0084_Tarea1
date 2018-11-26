@@ -5,17 +5,30 @@ public class DatosPartido {
     private int numeroDePartido; // Atributos Partido
     private String fechaPartido;
     private String horaPartido;
-    private int factorEmpate;
+    private float factorEmpate;
     private int codigoEquipo1; // Atributos Equipo 1
     private String nombreEquipo1;
     private float factorEquipo1;
-    public int golesEquipo1 = 0;
+    public int golesEquipo1;
     private int codigoEquipo2; // Atributos Equipo 2
     private String nombreEquipo2;
     private float factorEquipo2;
-    private int golesEquipo2 = 0;
+    private int golesEquipo2 ;
+//    Estas variables son requeridas para otras funciones
+    private int numeroDeApuestas = 0;
 
 // Setter and Getter Methods
+
+
+
+    public int getNumeroDeApuestas() {
+        return numeroDeApuestas;
+    }
+
+    public void setNumeroDeApuestas(int numeroDeApuestas) {
+        this.numeroDeApuestas = numeroDeApuestas;
+    }
+
     public int getNumeroDePartido() {
         return numeroDePartido;
     }
@@ -40,11 +53,11 @@ public class DatosPartido {
         this.horaPartido = horaPartido;
     }
 
-    public int getFactorEmpate() {
+    public float getFactorEmpate() {
         return factorEmpate;
     }
 
-    public void setFactorEmpate(int factorEmpate) {
+    public void setFactorEmpate(float factorEmpate) {
         this.factorEmpate = factorEmpate;
     }
 
@@ -111,5 +124,7 @@ public class DatosPartido {
     public void setGolesEquipo2(int golesEquipo2) {
         this.golesEquipo2 = golesEquipo2;
     }
+
+
 }
 

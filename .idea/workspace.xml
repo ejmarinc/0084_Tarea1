@@ -2,9 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21dea876-977b-4bac-8901-adc3e0edbf92" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/MainWindow.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MainWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tarea1ErickMarinCartin/CrearArchivoApuesta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tarea1ErickMarinCartin/CrearArchivoDatosPartido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tarea1ErickMarinCartin/LeerArchivoApuesta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tarea1ErickMarinCartin/LeerArchivoDatosPartido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tarea1ErickMarinCartin/ModificaPartido.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tarea1ErickMarinCartin/ModificaPartido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tarea1ErickMarinCartin/PartidoExiste.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tarea1ErickMarinCartin/PartidoExiste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tarea1ErickMarinCartin/PartidoNoExiste.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tarea1ErickMarinCartin/PartidoNoExiste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/ejmar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/ejmar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tarea1/Tarea1ErickMarinCartin/Apuesta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tarea1/Tarea1ErickMarinCartin/Apuesta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tarea1/Tarea1ErickMarinCartin/DatosPartido.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tarea1/Tarea1ErickMarinCartin/DatosPartido.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tarea1/Tarea1ErickMarinCartin/VentanaPartido$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tarea1/Tarea1ErickMarinCartin/VentanaPartido$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tarea1/Tarea1ErickMarinCartin/VentanaPartido.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tarea1/Tarea1ErickMarinCartin/VentanaPartido.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tarea1ErickMarinCartin/Apuesta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tarea1ErickMarinCartin/Apuesta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tarea1ErickMarinCartin/DatosPartido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tarea1ErickMarinCartin/DatosPartido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tarea1ErickMarinCartin/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tarea1ErickMarinCartin/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tarea1ErickMarinCartin/DialogDatosIngresados.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tarea1ErickMarinCartin/DialogDatosIngresados.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tarea1ErickMarinCartin/VentanaApuesta.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tarea1ErickMarinCartin/VentanaApuesta.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tarea1ErickMarinCartin/VentanaApuesta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tarea1ErickMarinCartin/VentanaApuesta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tarea1ErickMarinCartin/VentanaPartido.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tarea1ErickMarinCartin/VentanaPartido.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tarea1ErickMarinCartin/VentanaPartido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tarea1ErickMarinCartin/VentanaPartido.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,107 +94,173 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1531336152">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="4" />
+          <entry key="project.open.time.8" value="3" />
+          <entry key="project.opened" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="1" />
+          <entry key="form" value="17" />
+          <entry key="java" value="36" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="1" />
+          <entry key="GUI_DESIGNER_FORM" value="17" />
+          <entry key="JAVA" value="36" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="5942" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="5942" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="1334822648">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="form" value="5" />
+          <entry key="java" value="21" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="GUI_DESIGNER_FORM" value="5" />
+          <entry key="JAVA" value="19" />
+          <entry key="Scratch" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="3754" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="3754" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Tarea1ErickMarinCartin/Main.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/MainWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Tarea1ErickMarinCartin/DatosPartido.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+            <state relative-caret-position="3000">
+              <caret line="151" column="37" lean-forward="true" selection-start-line="151" selection-start-column="37" selection-end-line="151" selection-end-column="37" />
               <folding>
-                <element signature="e#556#557#0" expanded="true" />
-                <element signature="e#594#595#0" expanded="true" />
-                <element signature="e#653#654#0" expanded="true" />
-                <element signature="e#707#708#0" expanded="true" />
-                <element signature="e#746#747#0" expanded="true" />
-                <element signature="e#781#782#0" expanded="true" />
-                <element signature="e#837#838#0" expanded="true" />
-                <element signature="e#885#886#0" expanded="true" />
-                <element signature="e#923#924#0" expanded="true" />
-                <element signature="e#957#958#0" expanded="true" />
-                <element signature="e#1011#1012#0" expanded="true" />
-                <element signature="e#1057#1058#0" expanded="true" />
-                <element signature="e#1093#1094#0" expanded="true" />
-                <element signature="e#1128#1129#0" expanded="true" />
-                <element signature="e#1181#1182#0" expanded="true" />
-                <element signature="e#1229#1230#0" expanded="true" />
-                <element signature="e#1266#1267#0" expanded="true" />
-                <element signature="e#1302#1303#0" expanded="true" />
-                <element signature="e#1357#1358#0" expanded="true" />
-                <element signature="e#1407#1408#0" expanded="true" />
-                <element signature="e#1447#1448#0" expanded="true" />
-                <element signature="e#1483#1484#0" expanded="true" />
-                <element signature="e#1541#1542#0" expanded="true" />
-                <element signature="e#1591#1592#0" expanded="true" />
-                <element signature="e#1630#1631#0" expanded="true" />
-                <element signature="e#1666#1667#0" expanded="true" />
-                <element signature="e#1723#1724#0" expanded="true" />
-                <element signature="e#1773#1774#0" expanded="true" />
-                <element signature="e#1809#1810#0" expanded="true" />
-                <element signature="e#1844#1845#0" expanded="true" />
-                <element signature="e#1897#1898#0" expanded="true" />
-                <element signature="e#1945#1946#0" expanded="true" />
-                <element signature="e#1982#1983#0" expanded="true" />
-                <element signature="e#2018#2019#0" expanded="true" />
-                <element signature="e#2073#2074#0" expanded="true" />
-                <element signature="e#2123#2124#0" expanded="true" />
-                <element signature="e#2163#2164#0" expanded="true" />
-                <element signature="e#2199#2200#0" expanded="true" />
-                <element signature="e#2257#2258#0" expanded="true" />
-                <element signature="e#2307#2308#0" expanded="true" />
-                <element signature="e#2346#2347#0" expanded="true" />
-                <element signature="e#2382#2383#0" expanded="true" />
-                <element signature="e#2439#2440#0" expanded="true" />
-                <element signature="e#2489#2490#0" expanded="true" />
-                <element signature="e#2525#2526#0" expanded="true" />
-                <element signature="e#2560#2561#0" expanded="true" />
-                <element signature="e#2613#2614#0" expanded="true" />
-                <element signature="e#2661#2662#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#3955#4128#0" expanded="true" />
+                <element signature="e#4127#4128#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Tarea1ErickMarinCartin/LeerArchivoDatosPartido.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Tarea1ErickMarinCartin/ModificaPartido.form">
+          <provider selected="true" editor-type-id="ui-designer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Tarea1ErickMarinCartin/ModificaPartido.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1900">
+              <caret line="95" column="34" lean-forward="true" selection-start-line="95" selection-start-column="34" selection-end-line="95" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Tarea1ErickMarinCartin/VentanaPartido.form">
+          <provider selected="true" editor-type-id="ui-designer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MainWindow.form">
+          <provider selected="true" editor-type-id="ui-designer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Tarea1ErickMarinCartin/VentanaPartido.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="25" column="4" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Tarea1ErickMarinCartin/VentanaApuesta.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="680">
+              <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tarea1ErickMarinCartin/Apuesta.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="380">
+              <caret line="130" column="35" lean-forward="true" selection-start-line="130" selection-start-column="35" selection-end-line="130" selection-end-column="35" />
               <folding>
-                <element signature="e#443#444#0" expanded="true" />
-                <element signature="e#472#473#0" expanded="true" />
-                <element signature="e#516#517#0" expanded="true" />
-                <element signature="e#552#553#0" expanded="true" />
-                <element signature="e#585#586#0" expanded="true" />
-                <element signature="e#614#615#0" expanded="true" />
-                <element signature="e#658#659#0" expanded="true" />
-                <element signature="e#694#695#0" expanded="true" />
-                <element signature="e#733#734#0" expanded="true" />
-                <element signature="e#771#772#0" expanded="true" />
-                <element signature="e#830#831#0" expanded="true" />
-                <element signature="e#884#885#0" expanded="true" />
-                <element signature="e#923#924#0" expanded="true" />
-                <element signature="e#958#959#0" expanded="true" />
-                <element signature="e#1014#1015#0" expanded="true" />
-                <element signature="e#1062#1063#0" expanded="true" />
-                <element signature="e#1100#1101#0" expanded="true" />
-                <element signature="e#1134#1135#0" expanded="true" />
-                <element signature="e#1188#1189#0" expanded="true" />
-                <element signature="e#1234#1235#0" expanded="true" />
-                <element signature="e#1273#1274#0" expanded="true" />
-                <element signature="e#1308#1309#0" expanded="true" />
-                <element signature="e#1364#1365#0" expanded="true" />
-                <element signature="e#1412#1413#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Tarea1ErickMarinCartin/LeerArchivoApuesta.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -201,9 +289,35 @@
         <option value="$PROJECT_DIR$/src/DatosPartido.java" />
         <option value="$PROJECT_DIR$/src/tarea1/erick/marin/Main.java" />
         <option value="$PROJECT_DIR$/src/tarea1/erick/marin/DatosPartido.java" />
-        <option value="$PROJECT_DIR$/src/Tarea1ErickMarinCartin/DatosPartido.java" />
         <option value="$PROJECT_DIR$/src/Tarea1ErickMarinCartin/Main.java" />
+        <option value="$PROJECT_DIR$/src/Tarea1ErickMarinCartin/DialogDatosIngresados.form" />
+        <option value="$PROJECT_DIR$/src/Tarea1ErickMarinCartin/DialogApuestaIngresada.java" />
+        <option value="$PROJECT_DIR$/src/Tarea1ErickMarinCartin/DialogApuestaIngresada.form" />
+        <option value="$PROJECT_DIR$/src/Tarea1ErickMarinCartin/ApuestaIngresada.form" />
+        <option value="$PROJECT_DIR$/src/Tarea1ErickMarinCartin/ApuestaIngresada.java" />
+        <option value="$PROJECT_DIR$/src/Tarea1ErickMarinCartin/test.form" />
+        <option value="$PROJECT_DIR$/src/Tarea1ErickMarinCartin/test.java" />
+        <option value="$PROJECT_DIR$/src/ErrorPartidoExiste.form" />
+        <option value="$PROJECT_DIR$/src/ErrorPartidoExiste.java" />
+        <option value="$PROJECT_DIR$/src/Tarea1ErickMarinCartin/DialogDatosIngresados.java" />
+        <option value="$PROJECT_DIR$/src/Tarea1ErickMarinCartin/ErrorPartidoExiste.form" />
+        <option value="$PROJECT_DIR$/src/Tarea1ErickMarinCartin/PartidoExiste.form" />
+        <option value="$PROJECT_DIR$/src/Tarea1ErickMarinCartin/PartidoNoExiste.form" />
+        <option value="$PROJECT_DIR$/src/Tarea1ErickMarinCartin/VentanaApuesta.form" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_2.java" />
+        <option value="$PROJECT_DIR$/src/Tarea1ErickMarinCartin/CrearArchivoDatosPartido.java" />
+        <option value="$PROJECT_DIR$/src/Tarea1ErickMarinCartin/DatosPartido.java" />
+        <option value="$PROJECT_DIR$/src/Tarea1ErickMarinCartin/CrearArchivoApuesta.java" />
+        <option value="$PROJECT_DIR$/src/Tarea1ErickMarinCartin/VentanaApuesta.java" />
+        <option value="$PROJECT_DIR$/src/Tarea1ErickMarinCartin/VentanaPartido.java" />
+        <option value="$PROJECT_DIR$/src/Tarea1ErickMarinCartin/VentanaPartido.form" />
+        <option value="$PROJECT_DIR$/src/Tarea1ErickMarinCartin/ModificaPartido.form" />
+        <option value="$PROJECT_DIR$/src/Tarea1ErickMarinCartin/ModificaPartido.java" />
+        <option value="$PROJECT_DIR$/src/Tarea1ErickMarinCartin/LeerArchivoDatosPartido.java" />
+        <option value="$PROJECT_DIR$/src/Tarea1ErickMarinCartin/LeerArchivoApuesta.java" />
+        <option value="$PROJECT_DIR$/src/MainWindow.java" />
         <option value="$PROJECT_DIR$/src/Tarea1ErickMarinCartin/Apuesta.java" />
+        <option value="$PROJECT_DIR$/src/MainWindow.form" />
       </list>
     </option>
   </component>
@@ -251,64 +365,62 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="0084_Tarea1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="0084_Tarea1" type="462c0819:PsiDirectoryNode" />
+              <item name="0084_Tarea2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="0084_Tarea2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="0084_Tarea1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="0084_Tarea1" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="0084_Tarea1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="0084_Tarea1" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="0084_Tarea1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="0084_Tarea1" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="Tarea1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="0084_Tarea1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="0084_Tarea1" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="Tarea1" type="462c0819:PsiDirectoryNode" />
-              <item name="Tarea1ErickMarinCartin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="0084_Tarea1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="0084_Tarea1" type="462c0819:PsiDirectoryNode" />
+              <item name="0084_Tarea2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="0084_Tarea2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="0084_Tarea1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="0084_Tarea1" type="462c0819:PsiDirectoryNode" />
+              <item name="0084_Tarea2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="0084_Tarea2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Tarea1ErickMarinCartin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="0084_Tarea2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="0084_Tarea2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="MainWindow" type="e9f4de52:FormNode" />
+            </path>
+            <path>
+              <item name="0084_Tarea2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="0084_Tarea2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Scratches" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ChangesTree.GroupingKeys" value="module" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537081445223" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543211946871" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.spelling" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Kotlin" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ejmar\Documents\GitHub\0084_Tarea2\src\Tarea1ErickMarinCartin" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ejmar\Documents\GitHub\0084_Tarea1\src\Tarea1ErickMarinCartin" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -322,22 +434,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tarea1.erick.marin.Main" />
-      <module name="Tarea1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tarea1.erick.marin.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tarea1ErickMarinCartin.Main" />
+  <component name="RunManager" selected="Application.MainWindow">
+    <configuration name="ApuestaIngresada" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tarea1ErickMarinCartin.ApuestaIngresada" />
       <module name="Tarea1" />
       <extension name="coverage">
         <pattern>
@@ -349,8 +448,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tarea1ErickMarinCartin.Main" />
+    <configuration name="DialogApuestaIngresada" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tarea1ErickMarinCartin.DialogApuestaIngresada" />
+      <module name="Tarea1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Tarea1ErickMarinCartin.*" />
@@ -361,28 +461,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+    <configuration name="MainWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainWindow" />
       <module name="Tarea1" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PruebaCrearArchivo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="PruebaCrearArchivo1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VentanaPartido" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Tarea1ErickMarinCartin.VentanaPartido" />
+      <module name="Tarea1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tarea1ErickMarinCartin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.Main (2)" />
-      <item itemvalue="Application.Main (3)" />
+      <item itemvalue="Application.VentanaPartido" />
+      <item itemvalue="Application.ApuestaIngresada" />
+      <item itemvalue="Application.DialogApuestaIngresada" />
+      <item itemvalue="Application.MainWindow" />
+      <item itemvalue="Application.PruebaCrearArchivo1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MainWindow" />
+        <item itemvalue="Application.PruebaCrearArchivo1" />
+        <item itemvalue="Application.VentanaPartido" />
+        <item itemvalue="Application.DialogApuestaIngresada" />
+        <item itemvalue="Application.ApuestaIngresada" />
       </list>
     </recent_temporary>
   </component>
@@ -404,18 +526,18 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" side_tool="true" visible="true" weight="0.25266525" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" side_tool="true" visible="true" weight="0.282516" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
-      <window_info id="Learn" order="6" />
+      <window_info id="Learn" order="6" weight="0.32995737" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3991323" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31995663" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -432,145 +554,297 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" side_tool="true" visible="true" weight="0.2761194" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" weight="0.32995737" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.329718" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Tarea1ErickMarinCartin/Main.java</url>
-          <line>11</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Apuesta.java" />
-    <entry file="file://$PROJECT_DIR$/src/ejecucion/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/Apuesta.java" />
-    <entry file="file://$PROJECT_DIR$/src/DatosPartido.java" />
     <entry file="file://$PROJECT_DIR$/src/tarea1ErickMarin.java" />
     <entry file="file://$PROJECT_DIR$/src/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/tarea1/erick/marin/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/tarea1/erick/marin/Apuesta.java" />
     <entry file="file://$PROJECT_DIR$/src/tarea1/erick/marin/DatosPartido.java" />
-    <entry file="file://$PROJECT_DIR$/out/production/Tarea1/Tarea1ErickMarinCartin/DatosPartido.class">
+    <entry file="file://$PROJECT_DIR$/out/production/Tarea1/Tarea1ErickMarinCartin/DatosPartido.class" />
+    <entry file="file://$PROJECT_DIR$/out/production/Tarea1/Tarea1ErickMarinCartin/Apuesta.class" />
+    <entry file="file://$PROJECT_DIR$/src/Tarea1ErickMarinCartin/Main.java" />
+    <entry file="file://$PROJECT_DIR$/out/production/Tarea1/Tarea1ErickMarinCartin/VentanaPartido.class" />
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_181/src.zip!/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        <state relative-caret-position="190">
+          <caret line="614" selection-start-line="614" selection-end-line="614" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_181/src.zip!/java/lang/NumberFormatException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="740">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_181/src.zip!/java/awt/Component.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="1798" column="17" selection-start-line="1798" selection-start-column="17" selection-end-line="1798" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tarea1ErickMarinCartin/ApuestaIngresada.form" />
+    <entry file="file://$PROJECT_DIR$/src/Tarea1ErickMarinCartin/test.java" />
+    <entry file="file://$PROJECT_DIR$/src/Tarea1ErickMarinCartin/ApuestaIngresada.java" />
+    <entry file="file://$PROJECT_DIR$/src/Tarea1ErickMarinCartin/test.form" />
+    <entry file="file://$PROJECT_DIR$/src/Tarea1ErickMarinCartin/ErrorPartidoExiste.java" />
+    <entry file="file://$PROJECT_DIR$/src/Tarea1ErickMarinCartin/ErrorPartidoExiste.form" />
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_181/src.zip!/javax/swing/JDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19660">
+          <caret line="1046" selection-start-line="1046" selection-end-line="1046" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tarea1ErickMarinCartin/DialogDatosIngresados.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_181/src.zip!/javax/swing/JRootPane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11480">
+          <caret line="620" selection-start-line="620" selection-end-line="620" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tarea1ErickMarinCartin/DialogDatosIngresados.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
-            <element signature="e#0#582#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/Tarea1/Tarea1ErickMarinCartin/Apuesta.class">
+    <entry file="file://$PROJECT_DIR$/src/Tarea1ErickMarinCartin/PartidoExiste.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tarea1ErickMarinCartin/PartidoNoExiste.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tarea1ErickMarinCartin/VentanaApuesta.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tarea1ErickMarinCartin/PartidoExiste.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../UNED Erick/0084 Programacion Intermedia/manejo de archivos/CrearArchivo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="74" column="5" lean-forward="true" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#4321#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../UNED Erick/0084 Programacion Intermedia/manejo de archivos/PruebaCrearArchivo1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
+          <caret column="2" lean-forward="true" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../UNED Erick/0084 Programacion Intermedia/manejo de archivos/PruebaVerArchivo1.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../UNED Erick/0084 Programacion Intermedia/manejo de archivos/VerArchivo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
           <folding>
-            <element signature="e#0#382#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tarea1ErickMarinCartin/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/Tarea1ErickMarinCartin/PartidoNoExiste.form">
+      <provider selected="true" editor-type-id="ui-designer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tarea1ErickMarinCartin/DatosPartido.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        <state relative-caret-position="140">
+          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tarea1ErickMarinCartin/CrearArchivoDatosPartido.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
           <folding>
-            <element signature="e#556#557#0" expanded="true" />
-            <element signature="e#594#595#0" expanded="true" />
-            <element signature="e#653#654#0" expanded="true" />
-            <element signature="e#707#708#0" expanded="true" />
-            <element signature="e#746#747#0" expanded="true" />
-            <element signature="e#781#782#0" expanded="true" />
-            <element signature="e#837#838#0" expanded="true" />
-            <element signature="e#885#886#0" expanded="true" />
-            <element signature="e#923#924#0" expanded="true" />
-            <element signature="e#957#958#0" expanded="true" />
-            <element signature="e#1011#1012#0" expanded="true" />
-            <element signature="e#1057#1058#0" expanded="true" />
-            <element signature="e#1093#1094#0" expanded="true" />
-            <element signature="e#1128#1129#0" expanded="true" />
-            <element signature="e#1181#1182#0" expanded="true" />
-            <element signature="e#1229#1230#0" expanded="true" />
-            <element signature="e#1266#1267#0" expanded="true" />
-            <element signature="e#1302#1303#0" expanded="true" />
-            <element signature="e#1357#1358#0" expanded="true" />
-            <element signature="e#1407#1408#0" expanded="true" />
-            <element signature="e#1447#1448#0" expanded="true" />
-            <element signature="e#1483#1484#0" expanded="true" />
-            <element signature="e#1541#1542#0" expanded="true" />
-            <element signature="e#1591#1592#0" expanded="true" />
-            <element signature="e#1630#1631#0" expanded="true" />
-            <element signature="e#1666#1667#0" expanded="true" />
-            <element signature="e#1723#1724#0" expanded="true" />
-            <element signature="e#1773#1774#0" expanded="true" />
-            <element signature="e#1809#1810#0" expanded="true" />
-            <element signature="e#1844#1845#0" expanded="true" />
-            <element signature="e#1897#1898#0" expanded="true" />
-            <element signature="e#1945#1946#0" expanded="true" />
-            <element signature="e#1982#1983#0" expanded="true" />
-            <element signature="e#2018#2019#0" expanded="true" />
-            <element signature="e#2073#2074#0" expanded="true" />
-            <element signature="e#2123#2124#0" expanded="true" />
-            <element signature="e#2163#2164#0" expanded="true" />
-            <element signature="e#2199#2200#0" expanded="true" />
-            <element signature="e#2257#2258#0" expanded="true" />
-            <element signature="e#2307#2308#0" expanded="true" />
-            <element signature="e#2346#2347#0" expanded="true" />
-            <element signature="e#2382#2383#0" expanded="true" />
-            <element signature="e#2439#2440#0" expanded="true" />
-            <element signature="e#2489#2490#0" expanded="true" />
-            <element signature="e#2525#2526#0" expanded="true" />
-            <element signature="e#2560#2561#0" expanded="true" />
-            <element signature="e#2613#2614#0" expanded="true" />
-            <element signature="e#2661#2662#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tarea1ErickMarinCartin/CrearArchivoApuesta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tarea1ErickMarinCartin/VentanaModificaPartido.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tarea1ErickMarinCartin/VentanaActualizaPartido.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tarea1ErickMarinCartin/VentanaModificaPartido.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_181/src.zip!/javax/swing/plaf/basic/BasicButtonListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="562">
+          <caret line="251" selection-start-line="251" selection-end-line="251" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tarea1ErickMarinCartin/ModificaPartido.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tarea1ErickMarinCartin/ModificaPartido.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1900">
+          <caret line="95" column="34" lean-forward="true" selection-start-line="95" selection-start-column="34" selection-end-line="95" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tarea1ErickMarinCartin/BuscarPartidos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tarea1ErickMarinCartin/VentanaPartido.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tarea1ErickMarinCartin/VentanaPartido.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="25" column="4" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tarea1ErickMarinCartin/LeerArchivoApuesta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tarea1ErickMarinCartin/VentanaApuesta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tarea1ErickMarinCartin/Apuesta.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="380">
+          <caret line="130" column="35" lean-forward="true" selection-start-line="130" selection-start-column="35" selection-end-line="130" selection-end-column="35" />
           <folding>
-            <element signature="e#443#444#0" expanded="true" />
-            <element signature="e#472#473#0" expanded="true" />
-            <element signature="e#516#517#0" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
-            <element signature="e#585#586#0" expanded="true" />
-            <element signature="e#614#615#0" expanded="true" />
-            <element signature="e#658#659#0" expanded="true" />
-            <element signature="e#694#695#0" expanded="true" />
-            <element signature="e#733#734#0" expanded="true" />
-            <element signature="e#771#772#0" expanded="true" />
-            <element signature="e#830#831#0" expanded="true" />
-            <element signature="e#884#885#0" expanded="true" />
-            <element signature="e#923#924#0" expanded="true" />
-            <element signature="e#958#959#0" expanded="true" />
-            <element signature="e#1014#1015#0" expanded="true" />
-            <element signature="e#1062#1063#0" expanded="true" />
-            <element signature="e#1100#1101#0" expanded="true" />
-            <element signature="e#1134#1135#0" expanded="true" />
-            <element signature="e#1188#1189#0" expanded="true" />
-            <element signature="e#1234#1235#0" expanded="true" />
-            <element signature="e#1273#1274#0" expanded="true" />
-            <element signature="e#1308#1309#0" expanded="true" />
-            <element signature="e#1364#1365#0" expanded="true" />
-            <element signature="e#1412#1413#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tarea1ErickMarinCartin/LeerArchivoDatosPartido.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainWindow.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3000">
+          <caret line="151" column="37" lean-forward="true" selection-start-line="151" selection-start-column="37" selection-end-line="151" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3955#4128#0" expanded="true" />
+            <element signature="e#4127#4128#0" expanded="true" />
           </folding>
         </state>
       </provider>
